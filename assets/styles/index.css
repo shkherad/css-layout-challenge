@@ -1,0 +1,95 @@
+body{
+margin-left: auto;
+margin-right: auto;
+width: 600px;
+height: 500px;
+text-align: center;
+border: 3px solid black;
+}
+
+section{
+  width: 20%;
+  height: 80px;
+  border: 3px solid black;
+  float: left;
+}
+
+header{
+  width: 80%;
+  height: 10%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 3%;
+  border: 3px solid red;
+}
+
+.iso{
+  width: 80%;
+  height: 10%;
+  margin-bottom: 2%;
+  position: relative;
+  left: 10%
+}
+
+header > section{
+  height: 100%;
+  width: 12%;
+}
+
+header > section + section {
+  border: 3px solid green;
+  width: 60%
+}
+
+header > section + section +section {
+  border: 3px solid red;
+  width: 11%
+
+}
+
+article{
+  height: 55%;
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 3%;
+}
+
+article > section {
+  height: 100%;
+  width: 19%;
+  margin-left: 2%;
+}
+
+article > section + section{
+  height: 100%;
+  width: 75%;
+  border: none;
+}
+
+article > section + section > section{
+  height: 45%;
+  margin-bottom: 2%;
+  width: 30%;
+  margin-left: 1.5%;
+}
+
+article > section + section > section + section + section + section{
+  height: 50%;
+  width: 100%;
+}
+
+footer{
+  clear: both;
+  width: 100%;
+  height: 10%;
+  border: 3px solid green;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+p{
+  margin: 0;
+  padding: 0;
+  float: left
+}
